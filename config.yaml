@@ -1,0 +1,37 @@
+Data output:
+  Voltage:
+  - Max. Voltage
+GUISettings:
+  Frames_skip_TC: 100
+  Frames_skip_xray: 1000
+  MaxNumCol: 2
+General:
+  Version: 0.2
+MeasurementParameters:
+  Cell:
+  - Layout
+  - Quantity
+  - Type
+  - el. Connection
+  Detector:
+  - Camera
+  - Magnification
+  - Pixel Size
+  - FPS Xray
+  - FoV
+  Nail:
+  - Nail Diameter
+  - Nail Speed
+  - Intrusion Depth
+  general:
+  - Name
+  - Date
+  - Time
+Paths:
+  ExperimentalList: ExperimentalList.xslx
+  Logo: \icon\Logo.png
+  MainPathExperiment: Z:/projects/whaitiri/Data/mi1354/id19
+  MeasurementsParentFolder: TestMeasurements
+  ThermalCamera: ThermalImages
+  TranscomData: Test
+  Xrayimages: \Folder\XrayImages
