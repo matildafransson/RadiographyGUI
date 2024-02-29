@@ -25,7 +25,7 @@ In the configuration file (.yaml), please define:
     - MeasurementParentFolder, ThermalCamera, TranscomData, Xrayimages: 
       Linkes the data saving structures, in this the correct naming of data folders 
       inside one parent folder:
-      
+
       Parent folder:
           xx_xx_Images
           xx_xx_TC
