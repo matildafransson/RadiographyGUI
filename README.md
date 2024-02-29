@@ -26,10 +26,10 @@ In the configuration file (.yaml), please define:
       Linkes the data saving structures, in this the correct naming of data folders 
       inside one parent folder:
 
-      Parent folder:
-          xx_xx_Images
-          xx_xx_TC
-          xx_xx_Transcom
-          xx_xx_Video 
+      Folders inside the parent folder:
+          xx_xx_Images,
+          xx_xx_TC,
+          xx_xx_Transcom,
+          xx_xx_Video, 
           xx_xx_Xray
 
