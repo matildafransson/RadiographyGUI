@@ -11,21 +11,25 @@ In the configuration file (.yaml), please define:
     - Frames_skip_TC: Give a value of the ratio of the thermal imaging frames
       you wish to visualize. If the value = 100, every 100th frame will be
       imported to the GUI.
+      
     - Frames_skip_xray: Give a value of the ratio of the Xray frames frames
       you wish to visualize. If the value = 1000, every 1000th frame will be
       imported to the GUI.
-      
--Paths: 
+
+      -Paths: 
     - ExperimentalList: An exelfile containing the name of all the experiments, followed by
-      information such as magnification, pixel size, frame rate nessecary to run the GUI. 
+      information such as magnification, pixel size, frame rate nessecary to run the GUI.
+      
     - MainPathExperiment: path to the main folder whwre all the experiement folders are
+      
     - MeasurementParentFolder, ThermalCamera, TranscomData, Xrayimages: 
       Linkes the data saving structures, in this the correct naming of data folders 
-      inside one parent folder: 
-
+      inside one parent folder:
+      
       Parent folder:
           xx_xx_Images
           xx_xx_TC
           xx_xx_Transcom
           xx_xx_Video 
           xx_xx_Xray
+
